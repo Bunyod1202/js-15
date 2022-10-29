@@ -63,9 +63,39 @@ body {
   max-width: 372px;
 }
 .forms {
-  width: 300px;
+  /* width: 300px; */
   margin: 20px auto;
 }
-.input-search {
-  
+.categori-select,
+.select-reting {
+  width: 200px;
+}
+.bookmarkadd {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  background-image: url("../images/bookmark-add.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bookmarkcheck {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  background-image: url("../images/bookmark-check.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bookmark-card {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.bookmark-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bookmark-text {
+  text-align: center;
 }
